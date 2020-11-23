@@ -9,7 +9,7 @@ public class DemospringdataApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(DemospringdataApplication.class, args);
-        System.out.println("하이 마시멜로");
+
 
     }
 
