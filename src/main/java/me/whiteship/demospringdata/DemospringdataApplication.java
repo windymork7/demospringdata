@@ -10,7 +10,7 @@ public class DemospringdataApplication {
 
         SpringApplication.run(DemospringdataApplication.class, args);
 
-        System.out.println("24");
+        System.out.println("다시 이클립스로");
     }
 
 }
