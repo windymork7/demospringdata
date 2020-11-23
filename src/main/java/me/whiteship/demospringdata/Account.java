@@ -10,7 +10,7 @@ import java.util.Set;
 public class Account {
 
     @Id // Primary key
-    @GeneratedValue
+    @GeneratedValue // sequence
     private Long Id;
 
     @Column(nullable = false, unique = true)
@@ -18,7 +18,7 @@ public class Account {
 
     private String password;
 
-    @OneToMany
+    @OneToMany  // 1대 다 관계
     private Set<Study> studies = new HashSet<>();
 
 
