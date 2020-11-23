@@ -10,6 +10,7 @@ public class DemospringdataApplication {
 
         SpringApplication.run(DemospringdataApplication.class, args);
         System.out.println("하이 마시멜로");
+
     }
 
 }
